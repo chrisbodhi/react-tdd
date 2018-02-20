@@ -1,0 +1,28 @@
+.List {
+  text-align: center;
+}
+
+.List-logo {
+  animation: List-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.List-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.List-title {
+  font-size: 1.5em;
+}
+
+.List-intro {
+  font-size: large;
+}
+
+@keyframes List-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
